@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Landing page</title>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        
+        <style>
+            body{
+                font-size: 18px;
+                overflow: scroll;
+                width: 1400px !important;
+                
+            }
+           
+           * h2 { 
+                color:  hsl(210, 10%, 33%);
+                font-family: "Bai Jamjuree", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+             } 
+           * h3{
+                color:hsl(210, 10%, 33%);
+                font-family: "Bai Jamjuree", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+           }
+           h1{
+                color: hsl(210, 10%, 33%);
+                font-family: "Bai Jamjuree", sans-serif;
+                font-weight: 600;
+                font-style: normal;
+           }
+           * p {
+                color: hsl(201, 11%, 66%);
+                font-family: "Bai Jamjuree", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .list-items > .first-list{ 
+                display: flex; 
+                flex-direction: row; 
+                justify-content: center; 
+                align-items: center; 
+                gap: 7px; 
+                font-size: 18px; 
+                color: white; 
+                cursor: pointer;
+            } 
+            .first-list, a{  
+                list-style-type: none;  
+                text-decoration: none;  
+                color: white;  
+             } 
+                header .list-items .first-list{  
+                text-align: center;  
+                display: flex;  
+                margin: auto 27%;  
+                float: left;  
+             }  
+              .blue{ 
+                background-color: hsl(233, 100%, 69%); 
+                border: 1px solid hsl(233, 100%, 69%); 
+                border-radius: 40%; 
+                box-shadow: 0px 5px 7px hsl(233, 100%, 69%); 
+                padding: 0px; 
+                display: block; 
+                margin-right: 20px; 
+                border-radius: 30px; 
+                padding: 1rem; 
+                width: 200px; 
+             } 
+            .green{ 
+                background-color: hsl(171, 66%, 44%); 
+                border: 1px solid hsl(171, 66%, 44%); 
+                box-shadow: 0px 5px 7px hsl(171, 66%, 44%); 
+                text-decoration: none; 
+                padding: 0px; 
+                width: 200px; 
+                display: block; 
+                margin: auto; 
+                border-radius: 20px; 
+                padding: 1rem; 
+                border-radius: 30px;  
+             }  
+            
+            .big-logo {
+                height: 50%; 
+                background-image: url(./image/bg-header-desktop.png); 
+                background-repeat: no-repeat; 
+                background-size: cover;  
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; 
+                width: 100%;
+            }
+             .second-logo{
+                margin-top: 10%;
+                margin-left: 30%;
+                text-align: center;
+                justify-content: center;
+            }
+            
+            article{
+                text-align: center;
+                margin: 10% 30%;
+            }
+              #second-container{ 
+                display: flex; 
+                justify-content: space-between;  
+                
+             } 
+             #second-container > .fine-image{
+                margin-left: -8%; 
+                margin-top: 10px; 
+            } 
+            .complete-section{ 
+                 padding: 5%;
+                 margin: auto 10%;
+            }
+            .section ul li{
+                margin: auto;
+                list-style-type: none;
+                padding-bottom: 20%;
+                margin-right: 20%;
+            }
+            .section ul li .quick{
+                margin-bottom: 5%;
+            }
+            .third-container {
+                text-align: center;
+                
+                
+            }
+            .third-container > .access-clipboard{
+                margin: 8% 30%;
+
+            }
+            
+            
+            .almost-final{
+                text-align: center;
+                /* margin: 20px; */
+            }
+            .create-blacklist{
+                float: left;
+                width: 25%;
+                height: 280px;
+                margin-left: 15px;  
+            }
+            .plain-text{
+                float: left;
+                width: 40%;
+                margin-left: 10px;
+                height: 280px;
+            }
+            .sneak-preview{
+                float: left;
+                width: 25%;
+                height: 280px;
+                margin-left: 10px;
+            }
+            #blacklist{
+                margin-bottom: 20px;
+            }
+            .google{
+                display: flex;
+                justify-content: space-evenly;
+                margin: 30% 15%;
+                
+            }
+            
+            .second-ios ul li{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+                list-style-type: none;
+            }
+            .last-footer{
+                display: flex;
+                justify-content: space-around;
+                /* margin:10% 15% ; */
+                margin-top: 15%;
+            }
+            .last-images{
+                display: flex;
+                justify-content: end;
+                gap: 15px;
+                
+            }
+            .clipboard-ios-mac{
+                text-align: center;
+                 margin: auto 30%; 
+                 margin-top: 30%;
+            }
+            .almost-final > .supercharge{
+                margin-bottom: 8%;
+            }
+            footer{
+                background-color: hsl(0, 0%, 95%);  
+            }
+           
+            @media (max-width: 460px) { 
+                html{
+                    overflow: scroll;
+                    width: max-content;
+                    height: 600px !important;
+                    
+                }
+            }
+                @media (max-width: 900px){.big-logo{
+                    background-image: url(./image/bg-header-desktop.png); 
+                    background-repeat: no-repeat; 
+                    background-size: cover;  
+                    background-attachment: fixed;
+                    
+                }
+            }
+                
+            
+            
+            
+            
+
+
+                     
+            
+
+        </style>
+
+    </head>
+    <body>
+    
+    <header>
+        <div class="big-logo">
+            <div class="tired">
+                <div class="header-two"> 
+                    <div class="second-logo" id="logo"><img src="./image/logo.svg" height="100px" width="100px"</div>
+                <div class="my-history">
+                    <h1 class="history">A history of everything you copy</h1>
+                    <p class="first-paragraph">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+                </div>
+            </div>
+
+                <div class="list-items">
+                    <ul class="first-list">
+                        <li class="green"><a href="#">Download for iOS</li></a>
+                        <li class="blue"><a href="#">Download for Mac </li></a>
+                    </ul>
+                </div>
+              
+        </div>
+
+    </header>
+    <article>
+            <h2> keep track of your snippets </h2>
+            <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+    </article>
+    <section>
+        <div id="second-container">
+            <div class="fine-image">
+                 <img src="./image/image-computer.png">
+            </div>
+            <div class="complete-section" id="quick-search">
+                <div class="quick"><h3>Quick Search</h3>
+                    <p> Easily search your snippets by content, category, web address, application, and more.</p>
+                </div><br/><br/>
+                <div class="icloud"><h3>iCloud sync</h3>
+                    <p>Instantly saves and syncs snippets across all your devices.</p>
+                </div><br/><br/>
+                 <div class="complete"><h3>Complete history</h3>
+                    <p>Retrieve any snippets from the first moment you started using the app.</p>
+                </div>
+            </div>
+
+        </div>
+           
+        </section>
+        <div class="third-container">
+            <div class="access-clipboard">
+                <h2> Access Clipboard anywhere</h2>
+                <p> Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks. </p>
+            </div>
+                <div class="image-2"><img src="./image/image-devices.png"></div>
+        </div>
+        
+        <div class="almost-final">
+            <div class="supercharge"><h2>Supercharge your workflow </h2>
+               <p>We’ve got the tools to boost your productivity</p> 
+            </div>
+            <div id="blacklist">
+                <div class="create-blacklist" width="100px" height 100px>
+                    <img src="./image/icon-blacklist.svg" width="30px" height="30px">
+                    <h3>Create blacklists</h3>
+                    <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p> 
+                </div>
+                <div class="plain-text" width="100px" height="100px">
+                    <img src="./image/icon-text.svg" width="30px" height="30px">
+                    <h3>Plain text snippets </h3>
+                    <p>Remove unwanted formatting from copied text for a consistent look. </p>
+                </div>
+                <div class="sneak-preview" width="100px" height="100px">
+                    <img src="./image/icon-preview.svg" width="30px" height="30px">
+                    <h3>Sneak preview</h3> 
+                    <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+                </div>
+                    
+                  
+            </div>
+
+
+        </div>
+        <div class="google">
+                <div class="google-com"><img src="./image/logo-google.png"></div>
+                <div class="ibm"><img src="./image/logo-ibm.png"></div>
+                <div class="microsoft"><img src="./image/logo-microsoft.png"></div>
+                <div class="hp"><img src="./image/logo-hp.png"> </div>
+                <div class="vector"></div><img src="./image/logo-vector-graphics.png"> </div>
+            </ul>
+        </div>
+        <div class="clipboard-ios-mac">
+            <div class="clipboard" id="ios mac">
+                <h3>Clipboard for iOS and Mac OS</h3>
+                <p> Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+            </div>
+                <div class="list-items">
+                  
+                        <ul class="first-list">
+                            <li class="green"><a href="#">Download for iOS</li></a>
+                            <li class="blue"><a href="#">Download for Mac </li></a>
+                        </ul>
+                </div>
+        </div>
+        <footer>
+          <div class="last-footer">
+                <div class="logo-4">
+                    <img src="./image/logo.svg" height="50px" width="50px">
+                </div>
+                <div class="FAQs">
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="privacy policy">
+                    <p>Privacy policy</p>
+                    <p>Press kit</p>
+                </div>
+                <div class="install-guide">
+                    <p>Install guide</p>
+                </div>
+                <div class="last-images">
+                    <img src="./image/icon-facebook.svg" width="20px" height="20px">
+                    <img src="./image/icon-twitter.svg" width="20px" height="20px"> 
+                    <img src="./image/icon-instagram.svg" width="20px" height="20px">
+                </div>
+            </div>
+        </footer>
+       
+    </body>
+</html>
